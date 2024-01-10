@@ -1,0 +1,48 @@
+.App{
+   width: 100%;
+   height: 750px;
+   background-color: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+  border-radius: 30px;
+  width: 450px;
+  background-color: azure;
+  padding: 50px;
+}
+.header{
+   text-align: center;
+   margin: 10px;
+}
+.header h1{
+  color: rgb(4, 16, 247);
+  text-decoration: underline;
+}
+.header p{
+  color: rgb(135, 29, 21);
+  margin: 10px;
+  text-shadow: 2px 2px 4px #0ba3d6;
+}
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  border-radius: 30px;
+  height: 150px;
+  box-shadow: 2px 2px 2px 2px #000000 inset;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
